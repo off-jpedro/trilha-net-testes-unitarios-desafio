@@ -47,7 +47,7 @@ public class ValidacoesListaTests
         bool resultado = lista.Contains(numeroParaProcurar);
 
         // Assert
-        Assert.True(resultado);
+        Assert.False(resultado);
     }
 
     //TODO: Corrigir a anotação [Fact]
